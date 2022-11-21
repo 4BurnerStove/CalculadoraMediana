@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="./style.css" />
+  <body>
+    <main>
+      <div>
+        <h1>Calcular média</h1>
+      </div>
+      <div>
+        <div>
+          <input
+            type="text"
+            name="nameStudy"
+            id="nameStudy"
+            placeholder="Coloque o nome do aluno"
+            class="NameAluno"
+          />
+        </div>
+        <div class="notes">
+          <input
+            type="number"
+            name="n1"
+            id="n1"
+            placeholder="NOTA 1"
+            class="nutes"
+          />
+          <input
+            type="number"
+            name="n2"
+            id="n2"
+            placeholder="NOTA 2"
+            class="nutes"
+          />
+          <input
+            type="number"
+            name="n3"
+            id="n3"
+            placeholder="NOTA 3"
+            class="nutes"
+          />
+          <input
+            type="number"
+            name="n4"
+            id="n4"
+            placeholder="NOTA 4"
+            class="nutes"
+          />
+        </div>
+
+        <button class="button" onclick="resultado()">Enviar resultado</button>
+      </div>
+
+      <div class="result">
+        <p>
+          A média do(a) aluno(a) <span id="NameAlun"></span> é de
+          <span id="result"></span>
+        </p>
+        <p>O aluno está, <span id="situation"></span></p>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
